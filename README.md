@@ -1,0 +1,1 @@
+hmmtree: a script for searching protein predictions against an HMM database and generating a binary alignment file based on HMM present/absence. The output pseudo-FASTA file can be used for treebuilding. 
