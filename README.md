@@ -27,7 +27,9 @@ The only difference between these databases is that the vog_025p.hmm file has a 
 
 ### Basic Usage
 
-To test if hmmsearch will run properly type: \> python hmmtree.py -i test_proteins -p test_profile -t 2
+To test if hmmsearch will run properly type: \
+
+> python hmmtree.py -i test_proteins -p test_profile -t 2
 
 This should take ~30 seconds to run and create the following files:
 
