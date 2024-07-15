@@ -93,7 +93,7 @@ def run_program(inputdir, project, database, minhit, evalue, cpus, redo):
 ########################################################################
 def main(argv=None):
 
-	args_parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description="ViralRecall v. 2.0: A flexible command-line tool for predicting NCLDV-like regions in genomic data \nFrank O. Aylward, Virginia Tech Department of Biological Sciences <faylward at vt dot edu>", epilog='*******************************************************************\n\n*******************************************************************')
+	args_parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description="hmmtree: Part of a workflow for making trees based on protein family presence/absence \nFrank O. Aylward, Virginia Tech Department of Biological Sciences <faylward at vt dot edu>", epilog='*******************************************************************\n\n*******************************************************************')
 	args_parser.add_argument('-i', '--inputdir', required=True, help='Input folder of protein FASTA files (ending in .faa)')
 	args_parser.add_argument('-p', '--project', required=True, help='project name for outputs')
 	args_parser.add_argument('-db', '--database', required=False, default="hmm/vog_05p.hmm", help='PATH to HMM database to use. Default is hmm/vog_05p.hmm (default), vog_025p.hmm, and vog_005p.hmm. See README for details')
