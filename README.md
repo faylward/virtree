@@ -1,7 +1,7 @@
 
 
-# hmmtree
-hmmtree is a script for generating a binary alignment file based on HMM present/absence. It generates a pseudo-FASTA file that can be used for building phylogenetic trees.
+# virtree
+hmmtree is a script for generating a binary alignment file of viral genomes based on HMM present/absence. The result is a pseudo-FASTA file that can be used for building phylogenetic trees. This is often useful for viruses such as tailed phages (Cuadoviricetes) when universal marker genes are lacking. 
 
 ### Dependencies
 
