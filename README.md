@@ -2,7 +2,7 @@
 
 # virtree
 
-
+![virtree-logo](https://github.com/faylward/virtree/blob/main/1000001201.jpg)
 
 
 virtree is a script for generating a binary alignment file of viral genomes based on the present/absence of protein families. The input is a folder of .faa files (one file for the proteins in a genome) and the result is a pseudo-FASTA file of the binary presence/absence of protein families in each genome. This pseudo-FASTA file  can then be used for building phylogenetic trees in a similar manner as a regular multi-FASTA alignment file. This was initially developed for making phylogenetic trees of bacteriophages (Caudoviricetes) where universal marker genes are lacking, but in principle this method could be applied in a range of different contexts.
