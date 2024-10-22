@@ -79,7 +79,7 @@ def run_program(inputdir, project, database, minhit, evalue, cpus, redo):
 	#	df2 = df.clip(upper=9)
 	outputfile = project + "_bin.fna"
 	o = open(outputfile, "w")
-	for (columnName, columnData) in df2.iteritems():
+	for (columnName, columnData) in df2.items():
 		vogsum = sum([float(n) for n in columnData])
 		if vogsum >= minhit:
 		#print(columnName, vogsum)
